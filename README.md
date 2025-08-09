@@ -1,16 +1,25 @@
-# arrow
+# MemorySwipe
 
-A new Flutter project.
+A tiny Flutter memory game: watch the arrow sequence, then **swipe** it back in order. Sequences grow each round. Miss = game over.
 
-## Getting Started
+## Features
+- Swipe-based Simon-style gameplay
+- Flash feedback (green ✅ / red ❌)
+- Music toggle with saved preference (persists across launches)
+- Smooth swipe trail effect
 
-This project is a starting point for a Flutter application.
+## Quick Start
+```bash
+git clone https://github.com/JahanzebKhan796/MemorySwipe.git
+cd MemorySwipe
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+## Project Bits
+- `lib/main.dart` — app entry & start screen  
+- `lib/game.dart` — game logic/UI  
+- Assets (e.g., `assets/music.mp3`) — declare in `pubspec.yaml`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Requirements
+- Flutter
